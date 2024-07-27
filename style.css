@@ -1,0 +1,43 @@
+main {
+    display: flex;
+}
+
+
+h2 { color: greenyellow;
+    font-family: "Playwrite CL", cursive;
+}
+h3 { color: whitesmoke;
+}
+
+.header {
+    background-color: #2a9d8f;
+    color: white;
+    text-align: center;
+    padding: 2em;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.secciones {
+    display: inline-table;
+    color: rgb(251, 255, 192);
+    background-color: rgb(109, 136, 136);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    border: solid 4px black;
+    margin: 10px;
+    padding: 15px;
+      }
+#academia {
+        background-image: url("https://utvt.edomex.gob.mx/sites/utvt.edomex.gob.mx/files/images/1%20ACERCA%20DE%20LA%20UTVT/rectoria.jpg");
+        background-size: cover
+
+    }
+
+    .footer {
+        background-color: #2a9d8f;
+        color: white;
+        text-align: center;
+        padding: 1em;
+    }
